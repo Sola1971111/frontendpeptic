@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="light">
-<title>GastroSense · Peptic Ulcer Decision Support System</title>
+<title>GastroSense · symptom-based Peptic Ulcer risk screening</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -404,7 +404,7 @@ footer{background:var(--n-900);color:#9CA8BD;font-size:13.5px}
     <div class="grid-bg"></div>
     <div class="hero-in">
       <div>
-        <span class="eyebrow"><span class="d"></span>Clinical decision support · structured data</span>
+        <span class="eyebrow"><span class="d"></span>Clinical decision support · symptom-based screening</span>
         <h1>Catch peptic ulcer risk <em>before</em> it turns into bleeding.</h1>
         <p class="lead">GastroSense applies a trained machine-learning model to a patient's symptom profile and estimates their Peptic Ulcer Disease risk, supporting earlier clinical decisions without requiring imaging</p>
         <div class="hero-cta">
@@ -433,9 +433,9 @@ footer{background:var(--n-900);color:#9CA8BD;font-size:13.5px}
   </header>
 
   <section class="section" id="how">
-    <div class="sec-head"><div class="kick">The pipeline</div><h2>From routine clinical data to a decision</h2><p>Transform routine clinical data into an AI-assisted risk assessment in five steps.</p><span class="time-note"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Typical analysis time: under 15 seconds</span></div>
+    <div class="sec-head"><div class="kick">The pipeline</div><h2>From reported symptoms to a decision</h2><p>Transform a patient's reported symptoms into an AI-assisted risk assessment in five steps.</p><span class="time-note"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>Typical analysis time: under 15 seconds</span></div>
     <div class="timeline">
-      <div class="tl-step"><div class="tl-node"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><div class="tl-card"><span class="tl-num">Step 01</span><h4>Patient Information</h4><p>Age, symptoms, medication history, laboratory results, and H. pylori status.</p></div></div>
+      <div class="tl-step"><div class="tl-node"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><div class="tl-card"><span class="tl-num">Step 01</span><h4>Patient Information</h4><p>A patient's reported symptoms across pain, digestive, and bleeding categories.</p></div></div>
       <div class="tl-step"><div class="tl-node"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v4M12 17v4M3 12h4M17 12h4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.7"/></svg></div><div class="tl-card"><span class="tl-num">Step 02</span><h4>Data Preparation</h4><p>The system validates and prepares clinical data for analysis.</p></div></div>
       <div class="tl-step"><div class="tl-node"><svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="7" r="2.4" stroke="currentColor" stroke-width="1.6"/><circle cx="18" cy="7" r="2.4" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="17" r="2.4" stroke="currentColor" stroke-width="1.6"/><path d="M8 8.5 11 15M16 8.5 13 15" stroke="currentColor" stroke-width="1.6"/></svg></div><div class="tl-card"><span class="tl-num">Step 03</span><h4>Risk Analysis Engine</h4><p>Multiple machine learning models evaluate ulcer risk factors and clinical patterns.</p></div></div>
       <div class="tl-step"><div class="tl-node"><svg viewBox="0 0 24 24" fill="none"><path d="M21 12a9 9 0 1 1-9-9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M12 7v5l3 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><div class="tl-card"><span class="tl-num">Step 04</span><h4>Risk Prediction</h4><p>A probability score is generated along with key contributing factors.</p></div></div>
@@ -480,9 +480,9 @@ footer{background:var(--n-900);color:#9CA8BD;font-size:13.5px}
       <div class="kick">Built for our context</div>
       <h2 style="margin-top:12px">Designed for hospitals with limited infrastructure</h2>
       <div class="why-list">
-        <div class="why"><div class="ck"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>No expensive imaging required</b><p>Uses lab results and history clinics already collect — not endoscopy hardware.</p></div></div>
+        <div class="why"><div class="ck"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>No expensive imaging required</b><p>Uses reported symptoms clinics already gather — no imaging or lab hardware required.</p></div></div>
         <div class="why"><div class="ck"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>Interpretable predictions</b><p>Shows which factors drove the risk score, so clinicians can trust and verify it.</p></div></div>
-        <div class="why"><div class="ck"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>Locally adaptable</b><p>Tuned for the kind of clinical data routinely recorded in Nigerian healthcare settings.</p></div></div>
+        <div class="why"><div class="ck"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>Locally adaptable</b><p>Tuned for the kind of symptom presentations routinely recorded in Nigerian healthcare settings.</p></div></div>
         <div class="why"><div class="ck"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><b>Deployable prototype</b><p>A working web tool, not just a model in a notebook.</p></div></div>
       </div>
     </div>
@@ -490,7 +490,7 @@ footer{background:var(--n-900);color:#9CA8BD;font-size:13.5px}
 
   <div class="ctaband"><div class="ctaband-in">
     <h2>Run a sample assessment</h2>
-    <p>Input routine clinical data and receive a peptic ulcer risk assessment with supporting recommendations.</p>
+    <p>Input a patient's reported symptoms and receive a peptic ulcer risk assessment with supporting recommendations.</p>
     <a href="#" class="btn solid lg" onclick="launchApp();return false">Launch GastroSense
       <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
   </div></div>
@@ -499,7 +499,7 @@ footer{background:var(--n-900);color:#9CA8BD;font-size:13.5px}
     <div class="foot-grid">
       <div>
         <div class="brand"><div class="mk"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 3c-3 0-5 2.2-5 5 0 4 3 5 3 9a4 4 0 0 0 8 0c0-1.2.4-2 1.2-2.8C17.2 11 18 9.5 18 8c0-3-2.5-5-5.5-5C11 3 10.5 4 9 4" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="nm">GastroSense<span>Peptic Ulcer DSS</span></div></div>
-        <p class="foot-credit">A Machine Learning-Based Decision Support System for the detection of Peptic Ulcer Disease using structured clinical data.</p>
+        <p class="foot-credit">A Machine Learning-Based Decision Support System for the detection of Peptic Ulcer Disease using symptom-based clinical data.</p>
       </div>
       <div class="foot-col"><h5>Project</h5><div class="ln"><a href="#how">How it works</a><br><a href="#models">The model</a><br><a href="#why">Why it matters</a></div></div>
       <div class="foot-col"><h5>Researchers</h5><div class="ln">Oyedeji Joshua Olusola — IFS/20/5000<br>Ikuemelo Collins Oluwaseun — IFS/20/4982<br>Supervisor: Dr. Balogun T.E.</div></div>
@@ -578,7 +578,7 @@ footer{background:var(--n-900);color:#9CA8BD;font-size:13.5px}
             <div class="chk" data-val="Weight loss" data-id="weight_loss"><span class="box"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Unintended weight loss</div>
             <div class="chk" data-val="Anaemia" data-id="anemia"><span class="box"><svg viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Anaemia / weakness / fatigue</div>
           </div>
-          <div class="helper"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 11v5M12 8h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Dark stools, blood in vomit and anaemia may indicate gastrointestinal bleeding and raise the risk weighting.</div>
+          <div class="helper"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 11v5M12 8h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> Dark stools, blood in vomit and anaemia are stronger indicators of peptic ulcer disease.</div>
         </div>
         <div class="q-foot"><button class="btn solid pill" onclick="nextStep()">Get assessment</button></div>
       </div>
